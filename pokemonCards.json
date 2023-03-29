@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "63e161ae8721ce22b320e80f"
+  },
+  "pokemon": "Charizard",
+  "set": "Roaring Skies",
+  "price": "$200",
+  "imgPath": "/images/4bd386c2-5ccb-48cc-901a-084aeee41cb8_ebf3ee08-ecb1-41be-865b-1a08a2533b5c_800x.jpg"
+},{
+  "_id": {
+    "$oid": "63e288978721ce22b320e811"
+  },
+  "pokemon": "Flareon",
+  "set": "Lost Origin",
+  "price": "$5.99",
+  "imgPath": "/images/169_734x_b31c69d0-a520-4fb3-b0f0-d0dd7c2ae8f4_1200x1200.webp"
+},{
+  "_id": {
+    "$oid": "63e288e48721ce22b320e812"
+  },
+  "pokemon": "Sylveon",
+  "set": "EX Holon Phantoms",
+  "price": "$700",
+  "imgPath": "/images/51D4ICXaZCL._AC_.jpg"
+},{
+  "_id": {
+    "$oid": "63e289108721ce22b320e813"
+  },
+  "pokemon": "Salamence",
+  "set": "EX Holon Phantoms",
+  "price": "$14.99",
+  "imgPath": "/images/f80d7e0c-89e8-41ba-8335-9f4d3d761953_9a1cf3c2-e685-4d6f-a36a-11b3f4db2b0e.webp"
+},{
+  "_id": {
+    "$oid": "63e2894b8721ce22b320e814"
+  },
+  "pokemon": "Shaymin",
+  "set": "Legendary Treasures",
+  "price": "$150",
+  "imgPath": "/images/51m9-QHwk7L._AC_.jpg"
+},{
+  "_id": {
+    "$oid": "63e289768721ce22b320e815"
+  },
+  "pokemon": "Sableye",
+  "set": "Phantom Forces",
+  "price": "$11.99",
+  "imgPath": "/images/SWSH1_EN_194.png"
+},{
+  "_id": {
+    "$oid": "63e2899c8721ce22b320e816"
+  },
+  "pokemon": "Eevee",
+  "set": "Furious Fists",
+  "price": "$8.99",
+  "imgPath": "/images/SWSHP_EN_SWSH042.png"
+},{
+  "_id": {
+    "$oid": "63e28c398721ce22b320e818"
+  },
+  "pokemon": "Polywhirl",
+  "set": "BASE SET",
+  "price": "$600",
+  "imgPath": "/images/38_6b9435d4-16b6-4b73-8e14-742356f36a5b_323x.jpg"
+}]

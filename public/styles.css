@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #fcfdfc;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing:inherit;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Layout */
+
+#header {
+    height: 6em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 3em;
+}
+
+#site-name a {
+    text-decoration: none;
+    color: black;
+    flex-basis: 1; 
+    font-family: "pacifico";
+}
+
+#main-navigation {
+    display: flex;
+    gap: 10px;
+    flex-basis: 1;
+    margin-right: 3em;
+}
+
+#main-navigation ul {
+    list-style: none;
+}
+
+#main-navigation ul li a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #6983a0;
+}
+
+#footer {
+    margin-left: 3em;
+    margin-top: 4em;
+}
+
+/* Index Page */
+
+#heroImageContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#indexHeroImage {
+    width: 90%;
+}
+
+#indexHeader {
+    text-align: center;
+    margin-top: 1em;
+}
+
+#indexPar {
+    text-align: center;
+    margin-top: 1em;
+
+}
+
+#newsLetterContainer {
+    width: 100%;
+    height: 15em;
+    background-color: #db5129;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+#newsLetterTitle {
+    font-size: 40px;
+    color: white;
+
+}
+
+#newsLetterInfo {
+    color: white; 
+    margin-top: 1em;
+
+}
+
+#newsLetterContainer input {
+    background-color:#db5129;
+    border-color: #e26c4d;
+    width:25em;
+    height: 2em;
+    margin-top: 1em;
+
+}
+
+::placeholder { 
+    color: #f6d3c9;
+}
+
+#newsLetterContainer button {
+    background-color: #db5129;
+    border: 2px solid black;
+    color: white;
+    width: 4em;
+    height: 2.5em;
+    margin-top: 0.5em;
+}
+
+
+/* Products Page */
+
+.productsHeader {
+    width: 100%;
+    height: 6em;
+    background-color: #2f587e;
+    display: flex;
+    align-items: center;
+    padding-left: 3em;
+
+}
+
+.page-title {
+    font-size: 40px;
+    color: white;
+}
+
+.product-list{
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    margin: 40px 20px 20px 20px;
+    justify-content: center;
+}
+
+.product{
+    margin-bottom: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product img{
+    width: 150px;
+}
+
+.product div{
+    margin-top: 0.5em;
+}
+
+.product button {
+    background-color: #db5129;
+    border: none;
+    color: white;
+    width: 4em;
+    height: 2.5em;
+    margin-top: 0.5em;
+
+}
+
+/* About Us Page */
+
+.AboutUsHeader {
+    width: 100%;
+    height: 6em;
+    background-color: #2f587e;
+    display: flex;
+    align-items: center;
+    padding-left: 3em;
+}
+
+#AboutUsHeader {
+    font-size: 40px;
+    color: white;
+}
+
+#AboutUsInfo{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#AboutUsInfo p {
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+#AboutUsDescription p {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#aboutUsHeroImage {
+    width: 90%;
+    margin-top: 2em;
+}
+
+
+
+@media screen and (max-width:430px){
+    #site-name a {
+        font-size: 20px;
+    }
+}

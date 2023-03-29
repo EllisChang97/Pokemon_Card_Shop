@@ -1,0 +1,16 @@
+extends layout 
+
+
+block main-content 
+  //You can overwrite the main-content block by writing block content
+  //in the template file which is extending.
+  div#heroImageContainer
+    img#indexHeroImage(src="/images/charbrilliant.jpg")
+  h1#indexHeader Pre Order the new pokemon Scarlet and Violet cards! 
+  p#indexPar Browse around our products 
+  div#newsLetterContainer
+    h1#newsLetterTitle Be the first to know
+    p#newsLetterInfo Join our email list and be the first to learn about new product drops and special sales.
+    input(type="text", placeholder="Email")
+    button Join 
+
