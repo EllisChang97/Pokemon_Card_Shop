@@ -26,7 +26,6 @@ app.use(express.static(path.join(__dirname, "public")));
 
 //test Express app
 app.get("/", async (request, response) => {
-    // response.status(200).send("Test page again aksjkajsdhflkajsdhffhlakhjfasdf");
     // links = await getCards();
     // cards = await getCards();
     response.render("index", { title: "Home" });
@@ -37,7 +36,7 @@ app.get("/", async (request, response) => {
   });
 
   app.get("/products", async (request, response) => {
-    cards = await getCards(); // pretty sure i need this here but not for the "/about" and "/"(home) pages
+    cards = await getCards(); 
     response.render("products", {title: "Products", products: cards});
   });
 
@@ -63,14 +62,3 @@ async function connection(){
     return res;
 }
 
-
-// photo references
-// https://waypointgames.ca/products/charizard-ex-xy121-xy-black-star-promos-jumbo-cards
-// https://store.401games.ca/products/poliwhirl-38-214-uncommon 
-// https://bbcards.ca/products/flareon-v
-// https://www.amazon.ca/Pokemon-Sylveon-EX-RC21-Generations-Holo/dp/B01BZE9LOK
-// https://northofexilegames.com/products/pokemon-salamence-delta-speciesdelta-species?variant=31817967632428
-// https://www.amazon.ca/Shaymin-VSTAR-173-Brilliant-Stars/dp/B09SXSSYQF
-// https://www.pokemon.com/us/pokemon-tcg/pokemon-cards/ss-series/swsh1/194/
-// https://www.pokemon.com/us/pokemon-tcg/pokemon-cards/ss-series/swshp/SWSH042/
-// https://www.gameinformer.com/gallery/2022/02/11/pokemon-tcg-sword-shield-brilliant-stars-the-coolest-cards-we-pulled-from 

@@ -6,7 +6,6 @@ block main-content
     div.product-list
         each card in products
             div.product 
-                //- img(src="/images/38_6b9435d4-16b6-4b73-8e14-742356f36a5b_323x.jpg")
                 img(src=`${card.imgPath}`)
                 div #{card.pokemon}
                 div ~#{card.set}~ 
